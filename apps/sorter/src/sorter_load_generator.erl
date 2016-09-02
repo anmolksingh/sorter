@@ -9,7 +9,7 @@ start_link()->
 	gen_server:start_link({local,?SERVER},?MODULE,[],[{timeout,30000}]).
 
 start()->
-	spawn(?MODULE,start,[1000,20]).
+	spawn(?MODULE,start,[1000,100]).
 
 start(_,0)->
 	ok;
