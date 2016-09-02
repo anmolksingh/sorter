@@ -1,0 +1,14 @@
+{application, sorter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+				  lager,
+				  flake
+                 ]},
+  {mod, { sorter_app, []}},
+  {env, []}
+ ]}.
